@@ -1,0 +1,86 @@
+
+body{ background-color: hsl(30, 38%, 92%)}
+
+
+.parent { width: 230px;
+height: 350px;
+background-color:  hsl(0, 0%, 100%);
+margin-left: 50%;
+margin-top:100px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+
+}
+
+.imag { margin-left: -230px;
+        margin-top: -150px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+.head {font-size: 25px;
+       margin-left: 15px;   
+       font-family: 'Fraunces', serif;
+        margin-top: 7px;
+}
+
+
+.paragraph {margin-left:15px;
+            font-size:12px;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: -210px;
+            color:hsl(228, 12%, 48%)
+}
+
+.price { margin-left: 15px;
+         font-family: 'Fraunces', serif;
+         font-size: 25px;
+         color: hsl(158, 36%, 37%);
+
+}
+.price::after { position: absolute;
+               content: "$169.99";
+               color:hsl(228, 12%, 48%);
+               font-size: 12px;
+               font-family: 'Montserrat', sans-serif;
+               margin-left: 30px;
+               margin-top:7px ;
+               text-decoration-line: line-through;
+
+}
+
+.Add {width: 190px;
+    height: 30px;
+     background-color:hsl(158, 36%, 37%);
+     color: hsl(0, 0%, 100%);
+     margin-top: 20px;
+     margin-left: 20px;
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 13px;
+     font-weight: bold;
+     border-radius: 5px;
+
+    }
+
+span {    font-family: 'Montserrat', sans-serif;
+font-size: 10px;
+margin-left: 15px;
+margin-top: 15px;
+display: inline-block;
+letter-spacing:5px;
+color:hsl(228, 12%, 48%)
+}
+
+footer { margin-top: 30px;
+
+margin-left: 490px;}
+
+.icon { margin-top:0px;
+       margin-right: 5px;
+
+m
+}
